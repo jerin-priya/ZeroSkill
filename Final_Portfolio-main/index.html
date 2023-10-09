@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Jahanara Imam Hall Dining Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav class="menu-bar" >
+            <img src="images/Dining_Management_System__1_-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li class="active"><a href="#header"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-address-card"></i>About</a></li>
+                <li><a href="#signin"><i class="fa fa-user"></i></i>Sign In</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                           <li><a href="#admin">Admin</a></li>
+                           <li><a href="#student">Student</a></li>
+                        </ul>
+                   </div>
+                
+                
+                </li>
+                <li><a href="#signup"><i class="fa fa-user-plus"></i>Sign Up</a>
+                
+                <div class="sub-menu-1">
+                     <ul>
+                        <li><a href="#admin1">Admin</a></li>
+                        <li><a href="#student1">Student</a></li>
+                     </ul>
+                </div>
+                
+                
+                
+                
+                </li>
+                <li><a href="#menus"><i class="fa fa-bars"></i>Menus</a></li>
+               
+
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+           
+            <h1>Welcome to <span>Jahanara Imam Hall</span><br />Dining Management System</h1>
+        </div>
+    </div>
+</div>
+<!--------------------about----------------->
+<div id="about">
+    <div class="container1">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Ladies-Hall-2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>After a long struggle and a relentless movement, the Shahjalal University of Science and Technology (SUST) was established in 1986. The only university of its kind at that time, it started it's career on the 1st Phalgun(13th of February 1991) with only three departments: Physics, Chemistry and Economics, 13 teachers and 205 students. It has now expanded to 7 schools, 27 departments and two institutes. The number of teachers has grown to 566 and the students to 8596. Besides, the University has 12 affiliated medical colleges under the School of Medical Sciences with 4000 students. SUST introduced the integrated honours course for the first time in Bangladesh. It introduced the semester system from the 1996-97 session and there was a remarkable improvement in the quality of education after the introduction of this system, which was visible even in the national arena. Every student from SUST has to take two language courses, one in Bangla and the other one in English. Every student also has to take two computer courses, one for computer literacy and the other to learn a computer language. The computer center of SUST offers courses to every employees and one can say, without any hesitation that SUST is the most IT enabled university in this country. SUST has started it's graduate programs by offering masters degree to graduating bachelors of most of the departments. It is difficult to start a world-class research program without a well funded graduate school, even then the teachers of SUST are trying to create a research environment in the campus. Two research journals are published regularly from SUST, one in Bangla and the other one in English where a few hundred research papers are submitted every year. Several departments have hosted International Conferences and are planning to organize similar events in the near future.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------signin----------->
+
+<div id="admin">
+    <div class="container1">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Admin</h1>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Id" placeholder="Admin ID" required >
+                        <input type="text" name="Name" placeholder="Admin Name" required >
+                        <input type="email" name="Email" placeholder="Admin Email" required>
+                        <input name="text" name="Password" placeholder="Admin Password"></input>
+                        <button type="submit" class="btn btn2">Submit</button>
+                      </form>
+                  
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <div id="student">
+        <div class="container1">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Student</h1>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Id" placeholder="Student ID" required >
+                            <input type="text" name="Name" placeholder="Student Name" required >
+                            <input type="email" name="Email" placeholder="Student Email" required>
+                            <input name="text" name="Password" placeholder="Student Password"></input>
+                            <button type="submit" class="btn btn2">Submit</button>
+                          </form>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+<!-------------SignUp-------------->
+
+
+<div id="admin1">
+    <div class="container1">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Admin</h1>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Id" placeholder="Admin ID" required >
+                            <input type="text" name="Name" placeholder="Admin Name" required >
+                            <input type="text" name="Phone" placeholder="Admin Phone" required >
+                            <input type="email" name="Email" placeholder="Admin Email" required>
+                            <input name="text" name="Password" placeholder="Admin Password"></input>
+                        <button type="submit" class="btn btn2">Submit</button>
+                      </form>
+                  
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <div id="student1">
+        <div class="container1">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Student</h1>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Id" placeholder="Student ID" required >
+                            <input type="text" name="Name" placeholder="Student Name" required >
+                            <input type="text" name="Phone" placeholder="Student Phone" required >
+                            <input type="email" name="Email" placeholder="Student Email" required>
+                            <input type="text" name="Department" placeholder="Student Department" required >
+                            <input type="text" name="RoomNo" placeholder="Student Room No." required >
+                            <input name="text" name="Password" placeholder="Student Password"></input>
+                            <button type="submit" class="btn btn2">Submit</button>
+                          </form>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<script>
+       
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+     for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+     }
+     for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+var sidemeu = document.getElementById("sidemenu");
+function openmenu(){
+ sidemeu.style.right="0";
+}
+function closemenu(){
+ sidemeu.style.right="-200px";
+}
+</script>
+
+<script>
+ document.getElementById('admin').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Get the values entered by the user
+    var id = document.getElementById('Id').value;
+    var name = document.getElementById('Name').value;
+    var email = document.getElementById('Email').value;
+    var password = document.getElementById('Password').value;
+
+    // You can add your authentication logic here
+    // For this example, let's simply display the entered username and password
+    //alert('Id: ' + id + '\nName: ' + name + '\nEmail: ' + email + '\nPassword: ' + password);
+
+});
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+</html>
